@@ -4,8 +4,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="Academic website of Antonio Hsu-Hua Tseng, MD, attending physician at National Taiwan University Hospital and National Taiwan University Cancer Center, and Clinical Lecturer at National Taiwan University College of Medicine." name="description"/>
-<title>Antonio Hsu-Hua Tseng, MD | Academic Website</title>
+<meta content="Academic website of Hsu-Hua Tseng, MD, attending physician at National Taiwan University Hospital and National Taiwan University Cancer Center, and Clinical Lecturer at National Taiwan University College of Medicine." name="description"/>
+<title>Hsu-Hua Tseng, MD | Academic Website</title>
 <meta content="#ede1cf" name="theme-color"/>
 <style>
     :root{
@@ -315,8 +315,8 @@ h2{font-weight:500;font-size:39px;letter-spacing:-.03em}
 .feature-side .big-year{font-weight:500;font-size:85px}
 .feature-main{background:linear-gradient(100deg,#f9f0df,#eee0ca)}
 .pub-entry{border-left:3px solid rgba(88,117,98,.42);box-shadow:none;transition:background .2s ease}
-.pub-entry:nth-of-type(3n){border-left-color:#a75d4d}
-.pub-entry:nth-of-type(4n){border-left-color:#b68b59}
+
+
 .pub-entry:hover{background:rgba(255,250,240,.95)}
 .pub-type{color:#a35845}
 .pub-year{font-weight:500;font-size:29px}
@@ -351,10 +351,14 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
   .art-section--floral::before{right:-130px;opacity:.28}
 }
 
-/* Chronological publication list; the featured article is highlighted once in its actual year. */
-.pub-entry--featured{border-left:5px solid #a75d4d;background:linear-gradient(110deg,rgba(252,244,227,.97),rgba(242,228,201,.82));box-shadow:0 8px 26px rgba(92,62,33,.06)}
-.pub-entry--featured .pub-title{color:#38546b;font-weight:700}
+/* Publication entries have equal visual weight; types are indicated by left-border color. */
 
+/* Revision: remove incongruous brick-red square seals and emphasize natural gouache motifs */
+.brand {gap:0}
+.portrait-caption {justify-content:flex-start}
+.honor .year {color:#657467}
+.honor {border-bottom-color:rgba(114,137,117,.32)}
+.honor:nth-child(2),.honor:nth-child(3),.honor:nth-child(4){border-bottom-color:rgba(114,137,117,.32)}
 /* Approved academic content / November 2026 */
 .navlinks{gap:15px;font-size:11px;letter-spacing:.06em}
 .hero-copy{max-width:74%;padding-bottom:65px}
@@ -369,15 +373,21 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 .approved-footer{line-height:1.75;align-items:center}
 .approved-footer a{color:#39546a;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:820px){.hero-copy{max-width:100%;padding:42px 35px 30px}.hero-main{min-height:auto}.hero-copy h1{font-size:clamp(35px,7vw,54px)}.hero-roles{font-size:14px}.approved-footer{flex-direction:column;align-items:flex-start;gap:16px}}
+
+/* Article type has semantic meaning; never rotate colors by list position. */
+.pub-entry--original{border-left:5px solid #587562}
+.pub-entry--review{border-left:5px solid #496C83}
+.pub-entry--commentary{border-left:5px solid #B68B59}
+.pub-entry--case{border-left:5px solid #A75D4D}
 </style>
 </head>
 <body>
 <header class="topbar">
 <div class="wrap nav">
 <a class="brand" href="#top">
-<span class="seal">HH</span>
+
 <span class="brand-text">
-<strong>Antonio Hsu-Hua Tseng, MD</strong>
+<strong>Hsu-Hua Tseng, MD</strong>
 <span>Academic website</span>
 </span>
 </a>
@@ -390,7 +400,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <div class="wrap hero-grid"><div aria-hidden="true" class="hero-bloom"></div>
 <div class="hero-main">
 <div class="hero-copy">
-<h1>Antonio Hsu-Hua Tseng, MD</h1><div class="eyebrow">Academic profile</div>
+<h1>Hsu-Hua Tseng, MD</h1><div class="eyebrow">Academic profile</div>
 
 
 
@@ -403,8 +413,8 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <div class="portrait-frame">
 <img alt="Portrait of Hsu-Hua Tseng in a white coat" src="portrait-hsu-hua-tseng.webp"/>
 <div class="portrait-caption">
-<div class="caption-box"><strong>Antonio Hsu-Hua Tseng, MD</strong><span>National Taiwan University Hospital</span></div>
-<div class="stamp">Taipei<br/>MD</div>
+<div class="caption-box"><strong>Hsu-Hua Tseng, MD</strong><span>National Taiwan University Hospital</span></div>
+
 </div>
 </div>
 </div>
@@ -417,7 +427,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <div class="wrap">
 <div class="section-head">
 <div>
-<div class="section-tag">02 / Interests</div>
+<div class="section-tag">01 / Interests</div>
 <h2>Academic interests</h2>
 </div>
 </div>
@@ -438,7 +448,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <div class="wrap">
 <div class="section-head">
 <div>
-<div class="section-tag">04 / Training</div>
+<div class="section-tag">02 / Education</div>
 <h2>Education &amp; Experience</h2>
 </div>
 </div>
@@ -450,7 +460,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 </div>
 <div class="timeline-card">
 <h3>International Experience</h3>
-<div class="timeline"><div class="tl-item"><div class="tl-date">2025</div><strong>Research Visit</strong><span>Stanford University</span></div><div class="tl-item"><div class="tl-date">2017</div><strong>Clinical Elective</strong><span>The University of Texas MD Anderson Cancer Center</span></div><div class="tl-item"><div class="tl-date">2017</div><strong>Clinical Elective</strong><span>Memorial Hermann Hospital</span></div><div class="tl-item"><div class="tl-date">2016</div><strong>Clinical Elective</strong><span>Keio University, Japan</span></div></div>
+<div class="timeline"><div class="tl-item"><div class="tl-date">2025</div><strong>Research Visit</strong><span>Stanford University</span></div><div class="tl-item"><div class="tl-date">2017</div><strong>Clinical Elective</strong><span>The University of Texas MD Anderson Cancer Center</span></div><div class="tl-item"><div class="tl-date">2017</div><strong>Clinical Elective</strong><span>Memorial Hermann–Texas Medical Center</span></div><div class="tl-item"><div class="tl-date">2016</div><strong>Clinical Elective</strong><span>Keio University Hospital</span></div></div>
 </div>
 </div>
 </div>
@@ -464,7 +474,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 
 </div>
 <div class="divider"><span aria-hidden="true" class="divider-seal">✿</span></div>
-<h3 class="pub-year">2026</h3><article class="pub-entry">
+<h3 class="pub-year">2026</h3><article class="pub-entry pub-entry--review">
 <div class="pub-no">01</div>
 <div>
 <div class="pub-type">Review · First author</div>
@@ -473,7 +483,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <p class="pub-cite"><em>Current Opinion in Gastroenterology</em>. 2026;42(5):319–324.</p>
 
 </div>
-</article><article class="pub-entry">
+</article><article class="pub-entry pub-entry--commentary">
 <div class="pub-no">02</div>
 <div>
 <div class="pub-type">Editorial · First author</div>
@@ -482,7 +492,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <p class="pub-cite"><em>Digestive Diseases and Sciences</em>. 2026;71(8):3266–3268.</p>
 
 </div>
-</article><article class="pub-entry">
+</article><article class="pub-entry pub-entry--original">
 <div class="pub-no">03</div>
 <div>
 <div class="pub-type">Original research · Coauthor</div>
@@ -491,7 +501,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <p class="pub-cite"><em>JAMA Network Open</em>. 2026;9(7):e2625715.</p>
 
 </div>
-</article><article class="pub-entry">
+</article><article class="pub-entry pub-entry--case">
 <div class="pub-no">04</div>
 <div>
 <div class="pub-type">Case report · Coauthor</div>
@@ -500,7 +510,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <p class="pub-cite"><em>Annals of Hematology</em>. 2026;105(4).</p>
 
 </div>
-</article><article class="pub-entry">
+</article><article class="pub-entry pub-entry--review">
 <div class="pub-no">05</div>
 <div>
 <div class="pub-type">Systematic review · Coauthor</div>
@@ -509,34 +519,34 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <p class="pub-cite"><em>Journal of Gastroenterology and Hepatology</em>. 2026;41(2):443–453.</p>
 
 </div>
-</article><h3 class="pub-year">2025</h3><article class="pub-entry">
+</article><h3 class="pub-year">2025</h3><article class="pub-entry pub-entry--case">
 <div class="pub-no">06</div>
 <div>
-<div class="pub-type">Letter / case report · Coauthor</div>
+<div class="pub-type">Case report · Coauthor</div>
 <p class="pub-title"><a class="pub-title-link" href="https://doi.org/10.1016/j.jfma.2025.02.018" rel="noopener noreferrer" target="_blank">IgG4-associated autoimmune hepatitis in a 70-year-old woman with progressive liver failure: First case report in Taiwan</a></p>
 <p class="pub-authors">Liao CH, <strong>Tseng HH</strong>, Hong TC, Liu CJ.</p>
 <p class="pub-cite"><em>Journal of the Formosan Medical Association</em>. 2025;124(9):865–866.</p>
 
 </div>
-</article><article class="pub-entry">
+</article><article class="pub-entry pub-entry--case">
 <div class="pub-no">07</div>
 <div>
-<div class="pub-type">Clinical report · Coauthor</div>
+<div class="pub-type">Clinical image / technical report · Coauthor</div>
 <p class="pub-title"><a class="pub-title-link" href="https://doi.org/10.1111/jgh.17010" rel="noopener noreferrer" target="_blank">Salvage Endoscopic Management for Basket Impaction Using Cholangioscopy and Electrohydraulic Lithotripsy</a></p>
 <p class="pub-authors">Hsin KH, <strong>Tseng HH</strong>, Wang HP, Chen CC.</p>
 <p class="pub-cite"><em>Journal of Gastroenterology and Hepatology</em>. 2025;40(7):1656–1658.</p>
 
 </div>
-</article><article class="pub-entry pub-entry--featured">
+</article><article class="pub-entry pub-entry--original">
 <div class="pub-no">08</div>
 <div>
-<div class="pub-type">Original research · First author · Featured publication</div>
+<div class="pub-type">Original research · First author</div>
 <p class="pub-title"><a class="pub-title-link" href="https://doi.org/10.1016/j.cgh.2024.07.044" rel="noopener noreferrer" target="_blank">Impact of Time Period and Birth Cohort on the Trend of Advanced Neoplasm Prevalence in the 40–49 Average-Risk Screening Population</a></p>
 <p class="pub-authors"><strong>Tseng HH</strong>, Su CW, Chang WC, Chang WY, Hsu WF, Chang LC, Wu MS, Chiu HM.</p>
 <p class="pub-cite"><em>Clinical Gastroenterology and Hepatology</em>. 2025;23(4):644–652.e5.</p>
 
 </div>
-</article><h3 class="pub-year">2023</h3><article class="pub-entry">
+</article><h3 class="pub-year">2023</h3><article class="pub-entry pub-entry--original">
 <div class="pub-no">09</div>
 <div>
 <div class="pub-type">Original research · First author</div>
@@ -545,10 +555,10 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <p class="pub-cite"><em>European Thyroid Journal</em>. 2023;12(6):e230162.</p>
 
 </div>
-</article><h3 class="pub-year">2020</h3><article class="pub-entry">
+</article><h3 class="pub-year">2020</h3><article class="pub-entry pub-entry--case">
 <div class="pub-no">10</div>
 <div>
-<div class="pub-type">Letter / case report · First author</div>
+<div class="pub-type">Case report · First author</div>
 <p class="pub-title"><a class="pub-title-link" href="https://doi.org/10.1016/j.jfma.2020.02.002" rel="noopener noreferrer" target="_blank">Benzarone-induced liver injury: First case report in Asia</a></p>
 <p class="pub-authors"><strong>Tseng HH</strong>, Tseng LW, Yang HC.</p>
 <p class="pub-cite"><em>Journal of the Formosan Medical Association</em>. 2020;119(9):1445–1447.</p>
@@ -561,32 +571,32 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 <div class="wrap">
 <div class="section-head">
 <div>
-<div class="section-tag">05 / Honors</div>
+<div class="section-tag">04 / Honors</div>
 <h2>Honors &amp; Awards</h2>
 </div>
 </div>
 <div class="divider"><span aria-hidden="true" class="divider-seal">✿</span></div>
 <div class="honor-grid">
 <article class="honor">
-<div class="mini-stamp">YIA</div>
+
 <div class="year">2026</div>
 <strong>Young Investigator Award, Second Place</strong>
 <span>Taiwan Digestive Disease Week (TDDW)</span>
 </article>
 <article class="honor">
-<div class="mini-stamp">YIA</div>
+
 <div class="year">2026</div>
 <strong>Young Investigator Award</strong>
 <span>Society of International Digestive Disease Summit (SIDDS)</span>
-</article><article class="honor"><div class="mini-stamp">NTUH</div><div class="year">2026</div><strong>Research Excellence Award (Team Category)</strong><span>National Taiwan University Hospital</span></article>
+</article><article class="honor"><div class="year">2026</div><strong>Research Excellence Award (Team Category)</strong><span>National Taiwan University Hospital</span></article>
 <article class="honor">
-<div class="mini-stamp">NTUH</div>
+
 <div class="year">2025</div>
 <strong>Outstanding Resident Service Award</strong>
 <span>National Taiwan University Hospital</span>
 </article>
 <article class="honor">
-<div class="mini-stamp">GI</div>
+
 <div class="year">2024</div>
 <strong>Research Award (GI), First Place</strong>
 <span>Taiwan Digestive Disease Week (TDDW)</span>
@@ -596,7 +606,7 @@ footer{background:rgba(218,199,166,.2);border-top:2px solid rgba(170,126,76,.25)
 </section>
 
 </main>
-<footer><div class="wrap footer-row approved-footer"><div><strong>Antonio Hsu-Hua Tseng, MD</strong><br/>National Taiwan University Hospital<br/>National Taiwan University Cancer Center</div><div><a href="https://orcid.org/0000-0002-3354-2303" rel="noopener noreferrer" target="_blank">ORCID · 0000-0002-3354-2303 ↗</a></div></div></footer>
+<footer><div class="wrap footer-row approved-footer"><div><strong>Hsu-Hua Tseng, MD</strong><br/>National Taiwan University Hospital<br/>National Taiwan University Cancer Center</div><div><a href="https://orcid.org/0000-0002-3354-2303" rel="noopener noreferrer" target="_blank">ORCID · 0000-0002-3354-2303 ↗</a></div></div></footer>
 <script>
     const btn = document.getElementById('menu');
     const nav = document.getElementById('navlinks');
