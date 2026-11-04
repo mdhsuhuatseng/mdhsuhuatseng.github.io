@@ -1,0 +1,1 @@
+Hsu-Hua Tseng Academic Website v5 — Upload all files into the root of mdhsuhuatseng.github.io. The four section motifs and footer lily are actual transparent PNG assets. Only the home hero uses a full scenic background. Nothing has been deployed automatically.
